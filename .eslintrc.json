@@ -1,3 +1,28 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": true,
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "printWidth": 80,
+        "tabWidth": 2,
+        "endOfLine": "auto"
+      }
+    ]
+  },
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  }
 }
