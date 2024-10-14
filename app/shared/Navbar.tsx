@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
       <div className="flex items-center space-x-3">
         {/* Using next/image for optimized image loading */}
         <Image
-          src="/logo.png"
+          src="/fc-logo.png"
           alt="Company Logo"
           width={40} // Set width in pixels
           height={40} // Set height in pixels

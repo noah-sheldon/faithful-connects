@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Button } from '@/components/ui/button';
+import { Button } from '../../components/ui/button';
 
 const HomePage: React.FC = () => {
   return (
@@ -31,7 +31,7 @@ const HomePage: React.FC = () => {
         </div>
         <div className="lg:w-1/2 pt-16 lg:pt-0">
           <Image
-            src="/social-media.jpg"
+            src="/homepage/hero.png"
             alt="Laptop showing social media management"
             width={600}
             height={400}
